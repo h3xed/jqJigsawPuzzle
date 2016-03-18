@@ -436,3 +436,5 @@ jqJigsawPuzzle.setTimerCounter = function(piecesContainer, time) {
     if(hours < 10) hours = '0' + hours;
     jQuery(piecesContainer).find(".time_compter").html(hours + ':' + minutes + ':' + seconds);
 };
+
+module.exports = jqJigsawPuzzle;
